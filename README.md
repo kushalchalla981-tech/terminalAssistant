@@ -1,24 +1,20 @@
-```
- ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗         
-    ██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║         
-    ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║         
-    ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║         
-    ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗    
-    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝   
-                  A S S I S T A N T
-```
+<div align="center">
 
----
+<img src="assets/banner.svg" width="100%"/>
 
-> *"This town ain't big enough for slow workflows and broken terminals."*
-
----
+<br/>
 
 ![Version](https://img.shields.io/badge/Version-1.0-8B4513?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-8B4513?style=flat-square&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows-8B4513?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-8B4513?style=flat-square)
-![Offline](https://img.shields.io/badge/Offline-Ready-8B4513?style=flat-square)
+![Offline](https://img.shields.io/badge/Offline-Ready-6B3A2A?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-6B3A2A?style=flat-square)
+
+</div>
+
+---
+
+> *"This town ain't big enough for slow workflows and broken terminals."*
 
 ---
 
@@ -49,8 +45,7 @@
   ├──────────────────┼─────────────────────────────────────────────┤
   │  App Launcher    │  Fire up Notepad, Browser, Paint & more     │
   │  File Manager    │  Create, delete, list & search the frontier │
-  │  System Info     │  CPU, memory & disk — straight talk, no     │
-  │                  │  sugarcoating                               │
+  │  System Info     │  CPU, memory & disk — straight talk         │
   │  Utilities       │  Calculator + countdown timer               │
   │  Animated Clock  │  A digital timepiece for the command line   │
   └──────────────────┴─────────────────────────────────────────────┘
@@ -141,10 +136,10 @@ The assistant boots up. You're in business.
   │  TASK              │  SYNTAX                  │  EXAMPLE                 │
   ├────────────────────┼──────────────────────────┼──────────────────────────┤
   │  Open App          │  open <app>              │  open notepad            │
-  │  Create File       │  create file <name>      │  create file notes.txt   │
-  │  Create Folder     │  create folder <name>    │  create folder work      │
-  │  Delete File       │  delete file <name>      │  delete file old.txt     │
-  │  Delete Folder     │  delete folder <name>    │  delete folder old       │
+  │  Create File       │  create file <n>         │  create file notes.txt   │
+  │  Create Folder     │  create folder <n>       │  create folder work      │
+  │  Delete File       │  delete file <n>         │  delete file old.txt     │
+  │  Delete Folder     │  delete folder <n>       │  delete folder old       │
   │  List Directory    │  list                    │  list                    │
   │  Search File       │  search <filename>       │  search resume.pdf       │
   │  System Info       │  sysinfo                 │  sysinfo                 │
@@ -179,6 +174,8 @@ The terminal speaks in three tongues:
       ├── main.py            ← Start here. Always.
       ├── requirements.txt   ← One dependency: psutil
       ├── README.md          ← You are here
+      ├── assets/
+      │   └── banner.svg     ← The sign above the door
       └── commands/
           ├── app_launcher.py
           ├── file_manager.py
@@ -200,7 +197,7 @@ The terminal speaks in three tongues:
 ```
   ════════════════════════════════════════════════════════════
    Built local. Runs hard. Asks nothing of the cloud.
-   
+
                                        — Terminal Assistant
   ════════════════════════════════════════════════════════════
 ```
