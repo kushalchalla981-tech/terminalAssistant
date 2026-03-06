@@ -1,31 +1,32 @@
 <div align="center">
 
-# 🚀 Terminal Assistant 💻✨
+# 🌸 Terminal Assistant 💻✨
 
-### *Your personal, local command-line companion — cat-powered & color-charged!* 🐾
+### *Your local, cat-powered command-line companion!*
 
-![Terminal Assistant Banner](https://img.shields.io/badge/Terminal-Assistant-00C5FF?style=for-the-badge&logo=terminator&logoColor=white)
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![Platform Windows](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Powered by Cats](https://img.shields.io/badge/Powered%20By-%F0%9F%90%B1%20Cats-ff69b4?style=for-the-badge)
-![Zero APIs](https://img.shields.io/badge/Zero-APIs%20Needed-00e676?style=for-the-badge)
+![Terminal Assistant](https://img.shields.io/badge/Terminal-Assistant-A78BFA?style=for-the-badge&logo=terminator&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8%2B-FDE68A?style=for-the-badge&logo=python&logoColor=black)
+![Windows](https://img.shields.io/badge/Platform-Windows-7DD3FC?style=for-the-badge&logo=windows&logoColor=black)
+![Cats](https://img.shields.io/badge/Powered%20By-Cats-FF6EC7?style=for-the-badge)
+![APIs](https://img.shields.io/badge/APIs-Zero%20Needed-86EFAC?style=for-the-badge)
 
-<img src="assets/cat_flower.jpg" width="160" />
+<br/>
+
+<img src="assets/cat.svg" width="500"/>
 
 > *"You called? I heard keyboard clicks~ ♡"*
->
-> — **Terminal Neko**, guarding your CLI since 2024 🌸
+> — **Terminal Neko**, guarding your CLI since 2024
 
 </div>
 
 ---
 
-## 🌟 What is this?
+## ${\color{violet}🌟\ What\ is\ this?}$
 
 Terminal Assistant is a **sleek, modular, Python-powered CLI assistant** that lives entirely on your computer!
 
 > [!NOTE]
-> 🐾 **No APIs. No internet. No drama.** Just pure, local cat-powered processing at your fingertips.
+> 🐾 **No APIs. No internet. No drama.** Pure, local cat-powered processing at your fingertips.
 
 ```mermaid
 %%{init: {'theme': 'dark'}}%%
@@ -36,7 +37,6 @@ graph TD;
     B --> E[System Info 📊];
     B --> F[Utilities ⏱️];
     B --> G[Animation ✨];
-    
     style A fill:#ff5722,stroke:#e64a19,stroke-width:2px,color:#fff
     style B fill:#00bcd4,stroke:#0097a6,stroke-width:2px,color:#fff
     style C fill:#4caf50,stroke:#388e3c,stroke-width:2px,color:#fff
@@ -48,112 +48,91 @@ graph TD;
 
 ---
 
-## 🛠️ Features
+## ${\color{pink}🛠️\ Features}$
 
-| ✨ Feature | 🐾 What it Does |
+| ${\color{violet}✨\ Feature}$ | ${\color{cyan}🐾\ What\ it\ Does}$ |
 |---|---|
 | 🚀 **App Launcher** | Instantly fire up Notepad, Calculator, Paint, Browser, and more! |
 | 📁 **File Manager** | Create, delete, list, and recursively search files and folders |
 | 📊 **System Info** | A colorful mini-Task Manager right in your terminal (CPU, Memory, Disk) |
 | ⏱️ **Utilities** | Handy calculator + visual countdown timer! |
-| 🕐 **Animated Clock** | A flashy digital clock for your command line! |
+| 🕐 **Animated Clock** | A flashy digital clock straight in your command line! |
 
 ---
 
-## 🚀 Full Setup Guide — Step by Step
+## ${\color{lightblue}🚀\ Full\ Setup\ Guide}$
 
-<div align="center">
-<img src="assets/cat_silly.jpg" width="160" />
-
-*wake up → clone repo → act silly → repeat* 🐱
-</div>
+> [!TIP]
+> Follow these steps in order and you'll be purring along in under 2 minutes! 🐱
 
 ---
 
-### 📋 Prerequisites
+### ${\color{yellow}📋\ Prerequisites}$
 
-Before anything, make sure you have:
+Make sure you have these before starting:
 
-- ✅ **Python 3.8 or higher** — [Download here](https://www.python.org/downloads/) if you don't have it
-- ✅ **pip** — comes bundled with Python
-- ✅ **Git** — [Download here](https://git-scm.com/downloads/) if needed
+- ✅ **Python 3.8+** — [Download here](https://www.python.org/downloads/)
+- ✅ **pip** — comes bundled with Python automatically
+- ✅ **Git** — [Download here](https://git-scm.com/downloads/)
 - ✅ **Windows OS** — this assistant is built for Windows
 
-To verify Python is installed, open any terminal and run:
+Verify Python is ready by opening any terminal and running:
 ```bash
 python --version
+# Should print something like: Python 3.10.x
 ```
-You should see something like `Python 3.10.x`. If not, install Python first!
 
 ---
 
-### 🐾 Step 1 — Clone the Repository
+### ${\color{lime}🐾\ Step\ 1\ —\ Clone\ the\ Repository}$
 
 Open **Command Prompt** or **PowerShell** and run:
-
 ```bash
 git clone https://github.com/kushalchalla981-tech/terminalAssistant.git
-```
-
-Then navigate into the project folder:
-
-```bash
 cd terminalAssistant
 cd "term ass1"
 ```
 
 > [!NOTE]
-> The folder name has a space — make sure to wrap it in quotes!
+> The inner folder name has a space — the quotes are important!
 
 ---
 
-### 🐾 Step 2 — Install Dependencies
-
-The assistant uses `psutil` to read your system info. Install it with:
+### ${\color{lime}🐾\ Step\ 2\ —\ Install\ Dependencies}$
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This installs everything in one shot. You should see a success message when it finishes.
+This installs `psutil` (used for reading system stats). Done in seconds!
 
 > [!TIP]
-> If `pip` doesn't work, try `pip3 install -r requirements.txt` instead.
+> If `pip` doesn't work, try `pip3 install -r requirements.txt`
 
 ---
 
-### 🐾 Step 3 — Run the Assistant
+### ${\color{lime}🐾\ Step\ 3\ —\ Launch!}$
 
 ```bash
 python main.py
 ```
 
-That's it! The Terminal Assistant will boot up and greet you 🎉
+The Terminal Assistant boots up and greets you. That's all there is to it! 🎉
 
 > [!TIP]
-> If `python` doesn't work, try `python3 main.py` instead.
+> If `python` doesn't work, try `python3 main.py`
 
 ---
 
-<div align="center">
-
-**✅ Setup complete! The cat approves. Now go type some commands~** 🌸
-
-</div>
-
----
-
-## ⌨️ Command Cheat Sheet
-
-Here's every trick up this assistant's sleeve (and paw 🐾):
+## ${\color{pink}⌨️\ Command\ Cheat\ Sheet}$
 
 | ${\color{lime}Task}$ | ${\color{cyan}Command\ Syntax}$ | ${\color{yellow}Example}$ |
 | :--- | :--- | :--- |
-| **Open Application** | `open <app_name>` | `open notepad` or `open browser` |
-| **Create File** | `create file <n>` | `create file notes.txt` |
-| **Create Folder** | `create folder <n>` | `create folder projects` |
-| **Delete File** | `delete file <n>` | `delete file old_notes.txt` |
-| **Delete Folder** | `delete folder <n>` | `delete folder old_projects` |
+| **Open Application** | `open <app_name>` | `open notepad` / `open browser` |
+| **Create File** | `create file <name>` | `create file notes.txt` |
+| **Create Folder** | `create folder <name>` | `create folder projects` |
+| **Delete File** | `delete file <name>` | `delete file old_notes.txt` |
+| **Delete Folder** | `delete folder <name>` | `delete folder old_projects` |
 | **List Directory** | `list` | `list` |
 | **Search File** | `search <filename>` | `search resume.pdf` |
 | **System Info** | `sysinfo` | `sysinfo` |
@@ -165,25 +144,23 @@ Here's every trick up this assistant's sleeve (and paw 🐾):
 
 ---
 
-## 🎨 Color Language
-
-The assistant speaks in color so you always know what's happening:
+## ${\color{violet}🎨\ Color\ Language}$
 
 > [!NOTE]
-> 🟢 **Green** = Success — you did it!
+> 🟢 **Green** = Success — purrfect!
 
 > [!CAUTION]
-> 🔴 **Red** = Error — something went wrong (the cat is concerned 🙀)
+> 🔴 **Red** = Error — the cat is concerned 🙀
 
 > [!TIP]
-> 🔵 **Cyan & Yellow** = Info & highlights — pay attention here!
+> 🔵 **Cyan & Yellow** = Info & highlights — eyes on this!
 
 ---
 
-## 🐾 Cat-Powered Status Guide
+## ${\color{pink}🐾\ Cat-Powered\ Status\ Guide}$
 
 | ${\color{lime}Status}$ | ${\color{pink}Cat\ Mood}$ | ${\color{cyan}Meaning}$ |
-|--------|----------|---------|
+|---|---|---|
 | ✅ `[OK]` | 😸 Joyful Neko | Everything worked perfectly! |
 | ❌ `[ERROR]` | 🙀 Spooked Neko | Something went wrong |
 | ⏳ `[WAIT]` | 😺 Patient Neko | Working on it... hold on~ |
@@ -192,7 +169,7 @@ The assistant speaks in color so you always know what's happening:
 
 ---
 
-## 🧠 Project Structure
+## ${\color{lightblue}🧠\ Project\ Structure}$
 
 ```
 terminalAssistant/
@@ -200,7 +177,7 @@ terminalAssistant/
     ├── 📄 main.py              ← Entry point — start here!
     ├── 📋 requirements.txt     ← Dependencies (just psutil)
     ├── 📖 README.md            ← You are here 🐾
-    ├── 🖼️  assets/             ← Cat stickers live here 🐱
+    ├── 🖼️  assets/             ← Neko lives here
     └── 📦 commands/
         ├── 🚀 app_launcher.py  ← Launches your apps
         ├── 📁 file_manager.py  ← Manages files & folders
@@ -211,16 +188,16 @@ terminalAssistant/
 
 ---
 
-## 💡 Pro Tips
+## ${\color{yellow}💡\ Pro\ Tips}$
 
 > [!TIP]
 > 🐾 `sysinfo` is great for checking if your computer is overworked (like a cat with too many treats 🍪)
 
 > [!TIP]
-> 🐾 Use `timer 25` followed by `timer 5` for a classic Pomodoro session — productivity neko-style! 🍅
+> 🐾 `timer 25` → `timer 5` → repeat! Classic Pomodoro, neko-style 🍅
 
 > [!TIP]
-> 🐾 Type `clear` anytime to clean up your terminal — a tidy workspace is a happy workspace!
+> 🐾 `clear` anytime to tidy up — a clean terminal is a happy terminal!
 
 ---
 
