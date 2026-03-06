@@ -10,18 +10,11 @@
 ![Powered by Cats](https://img.shields.io/badge/Powered%20By-%F0%9F%90%B1%20Cats-ff69b4?style=for-the-badge)
 ![Zero APIs](https://img.shields.io/badge/Zero-APIs%20Needed-00e676?style=for-the-badge)
 
-</div>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW83aHdseW9ucTd4ZHZrcTNnbXlkbG83cGd2OGdyZWs4N3RqcWs5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KAq5w47R9rmTuxXUOs/giphy.gif" width="120" />
 
----
-
-<div align="center">
-
-```
-   ／l、
- （ﾟ､ ｡ ７       "You called? I heard keyboard clicks~ ♡"
-   l  ~ヽ
-   じしf_,)ノ     🌸 Terminal Neko — guarding your CLI since 2024 🌸
-```
+> *"You called? I heard keyboard clicks~ ♡"*
+>
+> — **Terminal Neko**, guarding your CLI since 2024 🌸
 
 </div>
 
@@ -69,8 +62,11 @@ graph TD;
 
 ## 🚀 Full Setup Guide — Step by Step
 
-> [!TIP]
-> Follow these steps in order and you'll be up and running in under 2 minutes! 🐱
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWZtdGJzNHljaGd1OW9wcm40aGVmdDhlMGFqMm9rbzQwbWp3ZnFrYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/tBxyh2hbwMiqc/giphy.gif" width="120" />
+
+*The cat is ready. Are you?* 🐱
+</div>
 
 ---
 
@@ -107,7 +103,7 @@ cd "term ass1"
 ```
 
 > [!NOTE]
-> The folder name has a space, so make sure to wrap it in quotes!
+> The folder name has a space — make sure to wrap it in quotes!
 
 ---
 
@@ -132,7 +128,7 @@ This installs everything in one shot. You should see a success message when it f
 python main.py
 ```
 
-That's it! The Terminal Assistant will boot up and greet you. 🎉
+That's it! The Terminal Assistant will boot up and greet you 🎉
 
 > [!TIP]
 > If `python` doesn't work, try `python3 main.py` instead.
@@ -141,13 +137,9 @@ That's it! The Terminal Assistant will boot up and greet you. 🎉
 
 <div align="center">
 
-```
-  =^..^=
- (  uu  )    ✅ Setup complete! The cat approves.
-  \ || /        Now go type some commands~
-   \||/
-    \/
-```
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWI2ajZsMWNleXBzM2tsdGJ2NHo3bWZoNHJ3bXo3am16dWgzdDhlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Cmr1OMJ2FN0B2/giphy.gif" width="130" />
+
+**✅ Setup complete! The cat approves. Now go type some commands~**
 
 </div>
 
@@ -160,10 +152,10 @@ Here's every trick up this assistant's sleeve (and paw 🐾):
 | ${\color{lime}Task}$ | ${\color{cyan}Command\ Syntax}$ | ${\color{yellow}Example}$ |
 | :--- | :--- | :--- |
 | **Open Application** | `open <app_name>` | `open notepad` or `open browser` |
-| **Create File** | `create file <name>` | `create file notes.txt` |
-| **Create Folder** | `create folder <name>` | `create folder projects` |
-| **Delete File** | `delete file <name>` | `delete file old_notes.txt` |
-| **Delete Folder** | `delete folder <name>` | `delete folder old_projects` |
+| **Create File** | `create file <n>` | `create file notes.txt` |
+| **Create Folder** | `create folder <n>` | `create folder projects` |
+| **Delete File** | `delete file <n>` | `delete file old_notes.txt` |
+| **Delete Folder** | `delete folder <n>` | `delete folder old_projects` |
 | **List Directory** | `list` | `list` |
 | **Search File** | `search <filename>` | `search resume.pdf` |
 | **System Info** | `sysinfo` | `sysinfo` |
@@ -189,16 +181,9 @@ The assistant speaks in color so you always know what's happening:
 > 🔵 **Cyan & Yellow** = Info & highlights — pay attention here!
 
 <div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2o3dTNzNWR4Z3dncTl6NW9nNWhtZWlyYzFhbzVlanIzY2FqZjZuZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ICOgUNjpvO0PC/giphy.gif" width="120" />
 
-```
-  ฅ^•ﻌ•^ฅ
-  
-  "I don't always use the terminal...
-   but when I do, I demand colorful output."
-   
-         — Neko Dev, probably
-```
-
+*"I demand colorful terminal output at all times."*
 </div>
 
 ---
@@ -236,7 +221,7 @@ terminalAssistant/
 ## 💡 Pro Tips
 
 > [!TIP]
-> 🐾 `sysinfo` is great for checking if your computer is being overworked (like a cat with too many treats 🍪)
+> 🐾 `sysinfo` is great for checking if your computer is overworked (like a cat with too many treats 🍪)
 
 > [!TIP]
 > 🐾 Use `timer 25` followed by `timer 5` for a classic Pomodoro session — productivity neko-style! 🍅
