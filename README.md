@@ -1,208 +1,206 @@
-<div align="center">
-
-# 🌸 Terminal Assistant 💻✨
-
-### *Your local, cat-powered command-line companion!*
-
-![Terminal Assistant](https://img.shields.io/badge/Terminal-Assistant-A78BFA?style=for-the-badge&logo=terminator&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.8%2B-FDE68A?style=for-the-badge&logo=python&logoColor=black)
-![Windows](https://img.shields.io/badge/Platform-Windows-7DD3FC?style=for-the-badge&logo=windows&logoColor=black)
-![Cats](https://img.shields.io/badge/Powered%20By-Cats-FF6EC7?style=for-the-badge)
-![APIs](https://img.shields.io/badge/APIs-Zero%20Needed-86EFAC?style=for-the-badge)
-
-<br/>
-
-<img src="assets/cat.svg" width="500"/>
-
-> *"You called? I heard keyboard clicks~ ♡"*
-> — **Terminal Neko**, guarding your CLI since 2024
-
-</div>
+```
+ ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗         
+    ██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║         
+    ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║         
+    ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║         
+    ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗    
+    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝   
+                  A S S I S T A N T
+```
 
 ---
 
-## ${\color{violet}🌟\ What\ is\ this?}$
+> *"This town ain't big enough for slow workflows and broken terminals."*
 
-Terminal Assistant is a **sleek, modular, Python-powered CLI assistant** that lives entirely on your computer!
+---
 
-> [!NOTE]
-> 🐾 **No APIs. No internet. No drama.** Pure, local cat-powered processing at your fingertips.
+![Version](https://img.shields.io/badge/Version-1.0-8B4513?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.8%2B-8B4513?style=flat-square&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows-8B4513?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-8B4513?style=flat-square)
+![Offline](https://img.shields.io/badge/Offline-Ready-8B4513?style=flat-square)
+
+---
+
+## ══ WANTED ══
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   W A N T E D                                               │
+│   ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔               │
+│   A terminal that works hard, asks no questions,            │
+│   needs no internet, and gets the job done by sundown.      │
+│                                                             │
+│   REWARD: A faster, cleaner workflow. Dead or alive.        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Terminal Assistant** is a no-nonsense, modular, Python-powered CLI tool built to run entirely on your machine. No cloud. No API keys. No nonsense. Just raw local power.
+
+---
+
+## ══ THE ARSENAL ══
+
+```
+  ┌──────────────────┬─────────────────────────────────────────────┐
+  │  MODULE          │  WHAT IT DOES                               │
+  ├──────────────────┼─────────────────────────────────────────────┤
+  │  App Launcher    │  Fire up Notepad, Browser, Paint & more     │
+  │  File Manager    │  Create, delete, list & search the frontier │
+  │  System Info     │  CPU, memory & disk — straight talk, no     │
+  │                  │  sugarcoating                               │
+  │  Utilities       │  Calculator + countdown timer               │
+  │  Animated Clock  │  A digital timepiece for the command line   │
+  └──────────────────┴─────────────────────────────────────────────┘
+```
+
+---
+
+## ══ HOW IT'S WIRED ══
 
 ```mermaid
-%%{init: {'theme': 'dark'}}%%
+%%{init: {'theme': 'neutral'}}%%
 graph TD;
-    A[Terminal Input 🐾] --> B(Core Router 🧠);
-    B --> C[App Launcher 🚀];
-    B --> D[File Manager 📁];
-    B --> E[System Info 📊];
-    B --> F[Utilities ⏱️];
-    B --> G[Animation ✨];
-    style A fill:#ff5722,stroke:#e64a19,stroke-width:2px,color:#fff
-    style B fill:#00bcd4,stroke:#0097a6,stroke-width:2px,color:#fff
-    style C fill:#4caf50,stroke:#388e3c,stroke-width:2px,color:#fff
-    style D fill:#ffca28,stroke:#ffb300,stroke-width:2px,color:#000
-    style E fill:#9c27b0,stroke:#7b1fa2,stroke-width:2px,color:#fff
-    style F fill:#e91e63,stroke:#c2185b,stroke-width:2px,color:#fff
-    style G fill:#3f51b5,stroke:#303f9f,stroke-width:2px,color:#fff
+    A[Your Command] --> B[Core Router];
+    B --> C[App Launcher];
+    B --> D[File Manager];
+    B --> E[System Info];
+    B --> F[Utilities];
+    B --> G[Animation];
+    style A fill:#5C3317,stroke:#3B1F0A,color:#F5DEB3
+    style B fill:#8B4513,stroke:#5C2E00,color:#F5DEB3
+    style C fill:#6B3A2A,stroke:#3B1F0A,color:#F5DEB3
+    style D fill:#6B3A2A,stroke:#3B1F0A,color:#F5DEB3
+    style E fill:#6B3A2A,stroke:#3B1F0A,color:#F5DEB3
+    style F fill:#6B3A2A,stroke:#3B1F0A,color:#F5DEB3
+    style G fill:#6B3A2A,stroke:#3B1F0A,color:#F5DEB3
 ```
 
 ---
 
-## ${\color{pink}🛠️\ Features}$
+## ══ RIDE INTO TOWN — SETUP GUIDE ══
 
-| ${\color{violet}✨\ Feature}$ | ${\color{cyan}🐾\ What\ it\ Does}$ |
-|---|---|
-| 🚀 **App Launcher** | Instantly fire up Notepad, Calculator, Paint, Browser, and more! |
-| 📁 **File Manager** | Create, delete, list, and recursively search files and folders |
-| 📊 **System Info** | A colorful mini-Task Manager right in your terminal (CPU, Memory, Disk) |
-| ⏱️ **Utilities** | Handy calculator + visual countdown timer! |
-| 🕐 **Animated Clock** | A flashy digital clock straight in your command line! |
+> Before you saddle up, make sure your rig is ready.
 
----
+**What you need:**
 
-## ${\color{lightblue}🚀\ Full\ Setup\ Guide}$
+- Python 3.8 or higher → [python.org/downloads](https://www.python.org/downloads/)
+- pip (ships with Python)
+- Git → [git-scm.com/downloads](https://git-scm.com/downloads)
+- Windows OS
 
-> [!TIP]
-> Follow these steps in order and you'll be purring along in under 2 minutes! 🐱
-
----
-
-### ${\color{yellow}📋\ Prerequisites}$
-
-Make sure you have these before starting:
-
-- ✅ **Python 3.8+** — [Download here](https://www.python.org/downloads/)
-- ✅ **pip** — comes bundled with Python automatically
-- ✅ **Git** — [Download here](https://git-scm.com/downloads/)
-- ✅ **Windows OS** — this assistant is built for Windows
-
-Verify Python is ready by opening any terminal and running:
-```bash
+Check your Python with:
+```
 python --version
-# Should print something like: Python 3.10.x
 ```
 
 ---
 
-### ${\color{lime}🐾\ Step\ 1\ —\ Clone\ the\ Repository}$
+### Step I — Claim Your Territory
 
-Open **Command Prompt** or **PowerShell** and run:
 ```bash
 git clone https://github.com/kushalchalla981-tech/terminalAssistant.git
 cd terminalAssistant
 cd "term ass1"
 ```
 
-> [!NOTE]
-> The inner folder name has a space — the quotes are important!
+> The inner folder has a space in its name — keep those quotes on.
 
 ---
 
-### ${\color{lime}🐾\ Step\ 2\ —\ Install\ Dependencies}$
+### Step II — Stock the Saddlebag
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This installs `psutil` (used for reading system stats). Done in seconds!
+Installs `psutil` for system monitoring. Quick and painless.
 
-> [!TIP]
-> If `pip` doesn't work, try `pip3 install -r requirements.txt`
+> If `pip` gives you trouble, try `pip3 install -r requirements.txt`
 
 ---
 
-### ${\color{lime}🐾\ Step\ 3\ —\ Launch!}$
+### Step III — Draw
 
 ```bash
 python main.py
 ```
 
-The Terminal Assistant boots up and greets you. That's all there is to it! 🎉
+The assistant boots up. You're in business.
 
-> [!TIP]
-> If `python` doesn't work, try `python3 main.py`
-
----
-
-## ${\color{pink}⌨️\ Command\ Cheat\ Sheet}$
-
-| ${\color{lime}Task}$ | ${\color{cyan}Command\ Syntax}$ | ${\color{yellow}Example}$ |
-| :--- | :--- | :--- |
-| **Open Application** | `open <app_name>` | `open notepad` / `open browser` |
-| **Create File** | `create file <name>` | `create file notes.txt` |
-| **Create Folder** | `create folder <name>` | `create folder projects` |
-| **Delete File** | `delete file <name>` | `delete file old_notes.txt` |
-| **Delete Folder** | `delete folder <name>` | `delete folder old_projects` |
-| **List Directory** | `list` | `list` |
-| **Search File** | `search <filename>` | `search resume.pdf` |
-| **System Info** | `sysinfo` | `sysinfo` |
-| **Timer** | `timer <seconds>` | `timer 60` |
-| **Calculator** | `calc <expression>` | `calc (10 + 5) * 2` |
-| **Animated Clock** | `time` | `time` |
-| **Clear Screen** | `clear` | `clear` |
-| **Exit** | `exit` | `exit` |
+> If `python` gives you trouble, try `python3 main.py`
 
 ---
 
-## ${\color{violet}🎨\ Color\ Language}$
-
-> [!NOTE]
-> 🟢 **Green** = Success — purrfect!
-
-> [!CAUTION]
-> 🔴 **Red** = Error — the cat is concerned 🙀
-
-> [!TIP]
-> 🔵 **Cyan & Yellow** = Info & highlights — eyes on this!
-
----
-
-## ${\color{pink}🐾\ Cat-Powered\ Status\ Guide}$
-
-| ${\color{lime}Status}$ | ${\color{pink}Cat\ Mood}$ | ${\color{cyan}Meaning}$ |
-|---|---|---|
-| ✅ `[OK]` | 😸 Joyful Neko | Everything worked perfectly! |
-| ❌ `[ERROR]` | 🙀 Spooked Neko | Something went wrong |
-| ⏳ `[WAIT]` | 😺 Patient Neko | Working on it... hold on~ |
-| 💡 `[INFO]` | 🐱 Curious Neko | Here's something useful |
-| 🚀 `[LAUNCH]` | 😼 Cool Neko | App is launching! |
-
----
-
-## ${\color{lightblue}🧠\ Project\ Structure}$
+## ══ THE CODEX — COMMAND REFERENCE ══
 
 ```
-terminalAssistant/
-└── term ass1/
-    ├── 📄 main.py              ← Entry point — start here!
-    ├── 📋 requirements.txt     ← Dependencies (just psutil)
-    ├── 📖 README.md            ← You are here 🐾
-    ├── 🖼️  assets/             ← Neko lives here
-    └── 📦 commands/
-        ├── 🚀 app_launcher.py  ← Launches your apps
-        ├── 📁 file_manager.py  ← Manages files & folders
-        ├── 📊 sys_info.py      ← Reads your system stats
-        ├── ⏱️  utilities.py    ← Calculator & Timer
-        └── ✨ animation.py     ← The digital clock magic
+  ┌────────────────────┬──────────────────────────┬──────────────────────────┐
+  │  TASK              │  SYNTAX                  │  EXAMPLE                 │
+  ├────────────────────┼──────────────────────────┼──────────────────────────┤
+  │  Open App          │  open <app>              │  open notepad            │
+  │  Create File       │  create file <name>      │  create file notes.txt   │
+  │  Create Folder     │  create folder <name>    │  create folder work      │
+  │  Delete File       │  delete file <name>      │  delete file old.txt     │
+  │  Delete Folder     │  delete folder <name>    │  delete folder old       │
+  │  List Directory    │  list                    │  list                    │
+  │  Search File       │  search <filename>       │  search resume.pdf       │
+  │  System Info       │  sysinfo                 │  sysinfo                 │
+  │  Timer             │  timer <seconds>         │  timer 60                │
+  │  Calculator        │  calc <expression>       │  calc (10 + 5) * 2       │
+  │  Animated Clock    │  time                    │  time                    │
+  │  Clear Screen      │  clear                   │  clear                   │
+  │  Exit              │  exit                    │  exit                    │
+  └────────────────────┴──────────────────────────┴──────────────────────────┘
 ```
 
 ---
 
-## ${\color{yellow}💡\ Pro\ Tips}$
+## ══ COLOR CODE OF THE WEST ══
 
-> [!TIP]
-> 🐾 `sysinfo` is great for checking if your computer is overworked (like a cat with too many treats 🍪)
+The terminal speaks in three tongues:
 
-> [!TIP]
-> 🐾 `timer 25` → `timer 5` → repeat! Classic Pomodoro, neko-style 🍅
-
-> [!TIP]
-> 🐾 `clear` anytime to tidy up — a clean terminal is a happy terminal!
+```
+  GREEN  ──  Job done. Ride on.
+  RED    ──  Something went sideways. Check your inputs.
+  CYAN   ──  Intel. Read it.
+  YELLOW ──  A highlight worth your attention.
+```
 
 ---
 
-<div align="center">
+## ══ THE LAY OF THE LAND ══
 
-*Made with* 🐾 *and Python — enjoy your Terminal Assistant!* 🎉✨
+```
+  terminalAssistant/
+  └── term ass1/
+      ├── main.py            ← Start here. Always.
+      ├── requirements.txt   ← One dependency: psutil
+      ├── README.md          ← You are here
+      └── commands/
+          ├── app_launcher.py
+          ├── file_manager.py
+          ├── sys_info.py
+          ├── utilities.py
+          └── animation.py
+```
 
-</div>
+---
+
+## ══ TRAIL WISDOM ══
+
+- Run `sysinfo` when the machine feels sluggish — know what's eating your resources
+- Chain `timer 25` and `timer 5` for a clean work-rest rhythm
+- `clear` early, `clear` often — a clean screen keeps your head clear
+
+---
+
+```
+  ════════════════════════════════════════════════════════════
+   Built local. Runs hard. Asks nothing of the cloud.
+   
+                                       — Terminal Assistant
+  ════════════════════════════════════════════════════════════
+```
