@@ -10,7 +10,7 @@
 ![Powered by Cats](https://img.shields.io/badge/Powered%20By-%F0%9F%90%B1%20Cats-ff69b4?style=for-the-badge)
 ![Zero APIs](https://img.shields.io/badge/Zero-APIs%20Needed-00e676?style=for-the-badge)
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW83aHdseW9ucTd4ZHZrcTNnbXlkbG83cGd2OGdyZWs4N3RqcWs5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KAq5w47R9rmTuxXUOs/giphy.gif" width="120" />
+<img src="assets/cat_flower.jpg" width="160" />
 
 > *"You called? I heard keyboard clicks~ ♡"*
 >
@@ -63,9 +63,9 @@ graph TD;
 ## 🚀 Full Setup Guide — Step by Step
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWZtdGJzNHljaGd1OW9wcm40aGVmdDhlMGFqMm9rbzQwbWp3ZnFrYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/tBxyh2hbwMiqc/giphy.gif" width="120" />
+<img src="assets/cat_silly.jpg" width="160" />
 
-*The cat is ready. Are you?* 🐱
+*wake up → clone repo → act silly → repeat* 🐱
 </div>
 
 ---
@@ -137,9 +137,7 @@ That's it! The Terminal Assistant will boot up and greet you 🎉
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWI2ajZsMWNleXBzM2tsdGJ2NHo3bWZoNHJ3bXo3am16dWgzdDhlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Cmr1OMJ2FN0B2/giphy.gif" width="130" />
-
-**✅ Setup complete! The cat approves. Now go type some commands~**
+**✅ Setup complete! The cat approves. Now go type some commands~** 🌸
 
 </div>
 
@@ -180,12 +178,6 @@ The assistant speaks in color so you always know what's happening:
 > [!TIP]
 > 🔵 **Cyan & Yellow** = Info & highlights — pay attention here!
 
-<div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2o3dTNzNWR4Z3dncTl6NW9nNWhtZWlyYzFhbzVlanIzY2FqZjZuZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ICOgUNjpvO0PC/giphy.gif" width="120" />
-
-*"I demand colorful terminal output at all times."*
-</div>
-
 ---
 
 ## 🐾 Cat-Powered Status Guide
@@ -208,6 +200,7 @@ terminalAssistant/
     ├── 📄 main.py              ← Entry point — start here!
     ├── 📋 requirements.txt     ← Dependencies (just psutil)
     ├── 📖 README.md            ← You are here 🐾
+    ├── 🖼️  assets/             ← Cat stickers live here 🐱
     └── 📦 commands/
         ├── 🚀 app_launcher.py  ← Launches your apps
         ├── 📁 file_manager.py  ← Manages files & folders
